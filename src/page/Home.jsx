@@ -419,7 +419,8 @@ const Home = () => {
                 placeholder="Enter Email"
                 name=""
                 id=""
-                className="w-full rounded-md p-5   border-none bg-white"
+               
+                className="w-full text-[#524F4F] rounded-md p-5  outline-none  border-none bg-white"
               />
               <button
                 type="submit"
