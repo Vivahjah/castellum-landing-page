@@ -413,22 +413,22 @@ const Home = () => {
           </div>
           <div className="w-1/2 h-fit rounded-md">
             {/* newletter */}
-            <form action="" className="bg-white flex rounded-md border-white">
+            <div className="flex flex-col">
               <input
                 type="email"
                 placeholder="Enter Email"
                 name=""
                 id=""
-                className="w-[30rem] p-4  outline-none border-none bg-white"
+                className="w-full rounded-md p-5   border-none bg-white"
               />
               <button
                 type="submit"
                 disabled
-                className="bg-[#ED2C54] bg-opacity-90 text-[#fff]  px-5"
+                className="bg-[#524F4F]  w-1/3 rounded-md my-3 text-[#fff]  py-5 px-8"
               >
                 Submit
               </button>
-            </form>
+            </div>
           </div>
         </div>
         <hr />
