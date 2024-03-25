@@ -119,14 +119,14 @@ const Home = () => {
             </a>
           ))}
         </div>
-        <div className="flex gap-4">
+        {/* <div className="flex gap-4">
           <button className="py-2 px-4 border font-medium border-[#ED2C54] rounded-sm">
             Sign In
           </button>
           <button className="text-white  p-2 rounded-sm font-medium bg-[#ED2C54]">
             Get Started
           </button>
-        </div>
+        </div> */}
       </div>
       {/* header */}
       <div className="w-[70%] mx-auto flex my-16 items-center gap-10">
@@ -229,7 +229,7 @@ const Home = () => {
       {/* video */}
       <div className="w-full h-fit py-12 bg-[#ED2C54] bg-opacity-90 mt-16  text-white ">
         <video
-          className="w-full h-auto max-w-lg mx-auto rounded shadow-lg"
+          className="w-full h-auto max-w-3xl mx-auto rounded shadow-lg"
           controls
           autoPlay={true}
         >
